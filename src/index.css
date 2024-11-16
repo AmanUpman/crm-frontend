@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.text-3d {
+    position: relative;
+    color: white;
+    font-size: 25rem;
+
+    text-shadow: 
+      13px 13px 0px #000, /* Light shadow for the top left */
+      6px 6px 0px rgba(0, 0, 0, 0.2); /* Dark shadow for the bottom right */
+  }
+  
+  .text-3d::before {
+    content: '';
+    position: absolute;
+    top: 3px; 
+    left: 3px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
