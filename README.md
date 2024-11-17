@@ -16,27 +16,10 @@ State Management: React Hooks (useState, useEffect)
 API Calls: Axios
 Routing: React Router
 
-📂 Folder Structure
-frontend/
-├── public/
-│   ├── index.html
-├── src/               
-│   ├── components/         
-│   │   ├── CustomerForm.jsx
-│   │   ├── Navbar.jsx
-│   │   └── OrderForm.jsx
-│   ├── pages/               
-│   │   ├── AudiencesPage.jsx
-│   │   ├── CampaignsPage.jsx
-│   │   ├── CustomersPage.jsx
-│   │   ├── MessagePage.jsx
-│   │   ├── OrdersPage.jsx
-│   │   └── ProfilePage.jsx
-│   ├── services/            
-│   │   └── api.js
-│   └── utils/                 
-│       └── validationUtils.js
-├── .env                      
-├── package.json               
-├── tailwind.config.js       
-             
+📚 Usage
+Customers Page: Manage customers, including adding, editing, and deleting records.
+Orders Page: View orders and manage order details.
+Audiences Page: Create and view audience segments based on custom filters.
+Campaigns Page: Create campaigns, send messages, and track message statuses.
+Message Logs Page: View logs of sent messages and their delivery statuses.
+Profile Page: View user profile information.
